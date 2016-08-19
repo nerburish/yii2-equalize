@@ -1,0 +1,22 @@
+{
+    "name": "nerburish/yii2-equalize",
+    "description": "Simple asset bundle for equalize.js (http://tsvensen.github.io/equalize.js/)",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nerburish",
+            "email": "nerburish@hotmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+		"bower-asset/equalize": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "nerburish\\equalize\\": ""
+        }
+    }
+}
