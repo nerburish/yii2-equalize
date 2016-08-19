@@ -29,6 +29,7 @@ Usage
 
 You can register the asset in your AppAsset 
 
+```
 class AppAsset extends AssetBundle
 {
     ...
@@ -37,15 +38,19 @@ class AppAsset extends AssetBundle
         'nerburish\equalize\EqualizeAsset'
     ];
 }
+```
 
 or register it directly in a view 
 
+```
 <?php
 \nerburish\equalize\EqualizeAsset::register($this);
 ?>
+```
 
 And then use as it is described in the documentation (http://tsvensen.github.io/equalize.js/):
 
+```
 <div id="height-example" class="example">
     <div>equalize</div>
     <div>equalize content height</div>
@@ -60,7 +65,7 @@ And then use as it is described in the documentation (http://tsvensen.github.io/
   </div>
  
 <?php $this->registerJs('$('#height-example').equalize(); // defaults to height') ?>
-
+```
 
 
 
