@@ -40,7 +40,7 @@ class AppAsset extends AssetBundle
 }
 ```
 
-or register it directly in a view 
+or use it directly in a view 
 
 ```
 <?php
